@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+	background-color: rgb(66, 134, 244);
+	display: flex;
+	justify-content: center;
+}
+
+#game {
+	height: 25rem;
+	width: 25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: rgb(151, 0, 165);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#button {
+	width: 5rem;
+	height: 2.6rem;
+	background-color: rgb(117, 114, 255);
+	margin: .5rem;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	padding: 1px;
+}
+
+#input {
+	width: 99%;
+	height: 2rem;
+	font-size: 2rem;
+}
+
+#row-3 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+p {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+#button:hover {
+	color: blue;
+	border: 1px solid blue;
+	padding: 0px;
+	cursor: pointer;
+}
+
+div {
+	cursor: default;
+}
